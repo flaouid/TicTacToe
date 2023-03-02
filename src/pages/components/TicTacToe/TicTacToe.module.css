@@ -1,0 +1,77 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(
+    90deg,
+    rgb(141, 80, 52) 0%,
+    rgb(250, 235, 235) 100%
+  );
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Indie Flower", cursive;
+  font-size: x-large;
+
+}
+.container {
+    flex-direction: column;
+    font-family: "Indie Flower", cursive;
+    justify-content: center;
+    display: grid;
+    margin-top: 50px;
+  }
+  
+  .col {
+    display: flex;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .cell {
+    width: 89px;
+    height: 89px;
+    border: 5px solid rgb(19, 14, 14);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xxx-large;
+    text-transform: capitalize;
+    cursor: pointer;
+    color: rgb(226, 201, 201);
+    font-weight: 900;
+    border-radius: 7px;
+
+  }
+  
+  .video_game_button {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 500px;
+    transition-property: background-color,border-color,color,box-shadow,filter;
+    transition-duration: .3s;
+    border: 1px solid transparent;
+    letter-spacing: 2px;
+    min-width: 160px;
+    text-transform: uppercase;
+    white-space: normal;
+    font-weight: 700;
+    text-align: center;
+    padding: 17px 48px;
+    color: #fff;
+    background-color: #6e521e;
+    height: 48px;
+  }
+  
+  .video_game_button:active {
+    box-shadow: none;
+    position: relative;
+    top: 0.2em;
+  }
+
+
+
